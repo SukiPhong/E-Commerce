@@ -1,0 +1,349 @@
+.container-thongtin {
+  display: flex;
+  justify-content: space-between;
+  height: 120vh;
+  padding: 2rem 10rem;
+  background-color: #f0f0f0;
+}
+
+.content-infor {
+  flex: 1;
+  overflow: auto;
+  border-radius: 0 10px 10px 0;
+  background-color: #f9f9f9;
+  padding: 20px;
+  scrollbar-width: thin;
+  scrollbar-color: darkgray lightgray;
+}
+.content-infor::-webkit-scrollbar {
+  width: 10px; /* Set width for Chrome, Safari, and Opera */
+}
+
+.content-infor::-webkit-scrollbar-thumb {
+  background-color: darkgray; /* Thumb color */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+.content-infor::-webkit-scrollbar-thumb:hover {
+  background-color: gray; /* Thumb color on hover */
+}
+
+.content-infor::-webkit-scrollbar-track {
+  background-color: lightgray; /* Track color */
+  border-radius: 5px; /* Rounded corners for the track */
+}
+
+.content-infor::-webkit-scrollbar-track:hover {
+  background-color: lightgray; /* Track color on hover */
+}
+.info-field {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.info-field span {
+  flex: 0.2;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.info-field .input-field {
+  flex: 1;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  transition: width 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-field .input-field input {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
+.info-field .select-field {
+  flex: 1;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.info-field .select-field select {
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.info-field select {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.btn-infor {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-change,
+.btn-save {
+  font-weight: bold;
+}
+
+.btn-change {
+  background-color: #f8bc73;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.btn-cancel {
+  background-color: #f8bc73;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-save {
+  background-color: #f8bc73;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-change:hover,
+.btn-save:hover {
+  transform: scale(0.8);
+}
+
+/*CSS địa chỉ ---------------------------------------------------------------------------*/
+.content-infor.diachi {
+  position: relative;
+}
+
+.Addaddress {
+  width: 150px;
+  height: 40px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+.Addaddress .btn-add {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #f8bc73;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.Addaddress .btn-add:hover {
+  background-color: #f4d9b8;
+}
+.address-list {
+  margin: 20px;
+}
+.address-list .addressList {
+  width: 100%;
+  height: 100px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+}
+.address-list .addressList:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+.address-list .addressList .addressList-right {
+  font-weight: bold;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.address-list .addressList .addressList-right .rightDiaChi {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.address-list .addressList .addressList-right .leftDiaChi {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.address-list .addressList .addressList-right .rightDiaChi p {
+  margin: 5px;
+  text-align: left;
+}
+.address-list .addressList .addressList-right .leftDiaChi p {
+  margin: 2px;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.address-list .addressList .addressList-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.address-list .addressList .addressList-left .addressList-left-bottom {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+.btn-address {
+  height: 40%;
+  background-color: #f6d4ab;
+  width: 100px;
+  margin: 10px;
+}
+/* Lịch Sử Mua hàng---------------------------------------------------------------------- */
+.menu-his {
+  width: 100%;
+  height: 10%;
+  background-color: #ececec;
+  display: flex;
+}
+.btn-historyList .btn-his {
+  cursor: pointer;
+  flex: 1;
+  border-radius: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.btn-historyList .btn-his:hover {
+  color: #f8bc73;
+  border-bottom: 5px solid #f8bc73;
+}
+.btn-historyList .btn-his.active {
+  color: #f8bc73;
+  border-bottom: 5px solid #f8bc73;
+  transition: 0.3s;
+}
+/* Sản phẩm yêu thích ----------------------------------------------------------------------------------------------------------------------------------------- */
+.no-favorite {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8d7da; /* Màu nền cho thông báo không có yêu thích */
+  border: 1px solid #f5c6cb; /* Viền đường kẻ */
+  color: #721c24; /* Màu chữ */
+  border-radius: 5px; /* Bo tròn góc */
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.ul-favorite {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.li-favorite {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.li-favorite:hover {
+  transform: scale(1.01);
+  border: 1px solid #222222;
+}
+.imgName {
+  display: flex;
+}
+.imgName img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.info-favorite {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  width: 80%;
+}
+.pricePro {
+  color: red;
+  text-decoration: underline;
+}
+.more-product {
+  width: 10%;
+  text-align: right;
+}
+/* +______________________________________________________ */
+.content-infor.voucher {
+  background-color: white;
+  padding: 2rem 12rem;
+}
+.info-coupon {
+  width: 100%;
+  height: 100%;
+}
+.info-coupon h3 {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 2px;
+  font-size: 1.5rem;
+}
+/* ----------------------------------------------------- */
+.headerDMK {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.doimatkhauCotent {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+}
+
+.doimatkhauCotent .doimatkhauField {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: end;
+}
+.doimatkhauCotent .doimatkhauField .inpDoiMatKhau {
+  margin: 10px;
+  height: 30px;
+  width: 200px;
+}
+.doimatkhauCotent .doimatkhauBTN {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.btn-doimatkhau {
+  margin-left: 20px;
+  width: 140px;
+  height: 40px;
+}

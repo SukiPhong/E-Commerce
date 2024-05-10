@@ -1,0 +1,96 @@
+.midcontent {
+  width: 100%;
+  height: 20vh;
+  padding: 20px;
+  display: flex;
+}
+.midcontent .dateThongKe {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midcontent .dateThongKe .dateThongKeField {
+  height: 100%;
+  width: 200px;
+  background-color: #e1dfdf;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.midcontent .dateThongKe .dateThongKeField .dateThongKeItem {
+  /* background-color: #bd2f2f; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.midcontent .dateThongKe .dateThongKeField .dateThongKeItem p {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+.midcontent .dateThongKe .dateThongKeField .dateThongKeItem input {
+  width: 40%;
+  padding: 5px;
+}
+
+.midcontent .dateThongKe .dateThongKeField .btnYearField {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnYear {
+  width: 100px;
+  height: 30px;
+}
+/* ------------------------------------------------------- */
+.midcontent .infoThongKe {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.midcontent .infoThongKe .tongdonanddoanhthu {
+  width: 250px;
+  height: 100%;
+  background-color: #fdd9d9;
+  border-radius: 20px;
+  display: flex;
+}
+.midcontent .infoThongKe .tongdonanddoanhthu .tongdonanddoanhthu-right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.midcontent .infoThongKe .tongdonanddoanhthu .tongdonanddoanhthu-right p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.midcontent .infoThongKe .tongdonanddoanhthu .tongdonanddoanhthu-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgtongdonanddoanhthu {
+  width: 50px;
+  margin: 10px;
+}
+
+/* ----------------------------------------------------------- */
+.botContent {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

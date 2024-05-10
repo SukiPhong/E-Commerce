@@ -1,0 +1,28 @@
+.checkbox-main {
+  width: 20px;
+  height: 20px;
+  appearance: inherit;
+  border: 2px solid #333;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox-main:checked {
+  background-color: rgb(21, 22, 22);
+  border: 2px solid white;
+}
+
+/* styles.css */
+
+.round-checkbox {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  border: 2px solid #333;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.round-checkbox:checked {
+  background-color: #00e71b; /* Màu nền khi được chọn */
+}

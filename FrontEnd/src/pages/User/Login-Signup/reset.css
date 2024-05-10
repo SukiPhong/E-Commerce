@@ -1,0 +1,24 @@
+.mainReset {
+  margin: 3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+.imageBack {
+  height: 100%;
+  width: 60%;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  background-image: url("../../../assets/imageLogin.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

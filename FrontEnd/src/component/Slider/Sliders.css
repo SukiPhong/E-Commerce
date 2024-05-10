@@ -1,0 +1,77 @@
+#slidercss img {
+  height: 600px;
+  width: 100%;
+}
+
+/* ----------------------SliderProductCart */
+
+.slider-product-cart {
+  margin: 20px;
+  position: relative;
+}
+
+.slider-product-cart-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.slider-product-cart-bottom img {
+  width: 300px;
+  height: 320px;
+  border-radius: 10px;
+}
+.slider-product-cart-bottom:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.slider-product-cart-bottom h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.slider-product-cart-bottom p {
+  font-size: 14px;
+  color: black;
+  margin: 5px 0;
+}
+
+.slider-product-cart-move {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.slider-product-cart-move button {
+  /* background-color: #fff; */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2.2rem;
+}
+
+.btn-left {
+  position: absolute;
+  left: -3%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn-right {
+  position: absolute;
+  right: -3%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-product-cart-move button .fa-lg {
+  color: #000;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff0000;
+}

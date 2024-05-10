@@ -1,0 +1,340 @@
+.thanhtoan {
+  background-color: #f0f0f0;
+  height: 120vh;
+}
+.thanhtoan .headerCart {
+  width: 100%;
+  padding: 20px 100px;
+  color: #ee4d2d;
+  display: flex;
+}
+.thanhtoan .iconHeaderCart {
+  font-size: 3.1rem;
+  border-bottom: 1px solid #ee4d2d;
+}
+.thanhtoan h1 {
+  border-bottom: 1px solid #ee4d2d;
+}
+.thanhtoansecond {
+  padding: 20px 100px;
+  height: 120vh;
+  width: 100%;
+  display: flex;
+}
+.thanhtoansecond .thanhtoanleft {
+  flex: 1;
+  height: 110vh;
+  margin-right: 20px;
+}
+
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main {
+  width: 100%;
+  background-color: #ececec;
+  border: 10px solid #fa9b89;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-1 {
+  flex: 0.5;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #bcbcbc;
+}
+
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-2 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-bottom: 2px solid #bcbcbc;
+}
+
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-2 .choseAddress {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.btnchoseAddress {
+  padding: 5px;
+  background-color: #ee4d2d;
+  color: #ececec;
+}
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-2 .addressField {
+  flex: 3;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.thanhtoansecond
+  .thanhtoanleft
+  .thanhtoanleft-main
+  .main-2
+  .addressField
+  .noaddress {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.infoaddress {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.infoaddress .address-left {
+  flex: 1;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.infoaddress .address {
+  font-size: 1.6rem;
+  flex: 5;
+  font-weight: bold;
+  margin: 0;
+}
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-3 {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-bottom: 2px solid #bcbcbc;
+}
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-4 {
+  flex: 1;
+  height: 100%;
+  padding: 10px 70px;
+  margin: 0 10px;
+}
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-4 h2 {
+  text-align: left;
+  width: 100%;
+}
+
+.checkField {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.checkField label {
+  margin: 0;
+}
+.thanhtoansecond .thanhtoanleft .thanhtoanleft-main .main-5 {
+  flex: 1;
+  height: 100%;
+  border-bottom: 2px solid #bcbcbc;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.main-5 .payCart {
+  margin-left: 20px;
+  flex: 1;
+  height: 50px;
+}
+.main-5 .voucherischoose {
+  flex: 5;
+  height: 100%;
+}
+.main-5 .voucherischoose p {
+  text-align: center;
+  font-size: 2rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-5 .voucherischoose .voucher-list-container {
+  height: 100px;
+  width: 100%;
+}
+.main-5 .voucherischoose .voucher-list-container img {
+  width: 100px;
+  height: 100px;
+}
+
+/* -------------- */
+.thanhtoansecond .thanhtoanright {
+  flex: 1;
+}
+.thanhtoansecond .thanhtoanright .thanhtoanright-top {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.thanhtoansecond .thanhtoanright .thanhtoanright-top p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0;
+}
+.thanhtoansecond .thanhtoanright .thanhtoanright-bottom {
+  height: 70vh;
+  background-color: white;
+  overflow: auto;
+}
+/* WebKit (Chrome, Safari) */
+.thanhtoansecond .thanhtoanright .thanhtoanright-bottom::-webkit-scrollbar {
+  width: 5px; /* Chiều rộng của thanh cuộn */
+}
+
+.thanhtoansecond
+  .thanhtoanright
+  .thanhtoanright-bottom::-webkit-scrollbar-thumb {
+  background-color: #888; /* Màu nền của thanh cuộn */
+  border-radius: 6px; /* Độ cong của góc thanh cuộn */
+}
+
+/* Firefox */
+.thanhtoansecond .thanhtoanright .thanhtoanright-bottom {
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+
+.thanhtoansecond
+  .thanhtoanright
+  .thanhtoanright-bottom::-webkit-scrollbar-track {
+  background-color: transparent; /* Màu nền của phần track thanh cuộn */
+}
+
+.itemProductOrder {
+  height: 15vh;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid #c2c2c2;
+}
+.itemProductOrder .bottom1 {
+  width: 55%;
+  height: 100%;
+  display: flex;
+}
+.itemProductOrder .bottom1 img {
+  width: 80px;
+  height: 100%;
+  margin-left: 5px;
+}
+.itemProductOrder .bottom1 .bottom1Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 7px;
+}
+.itemProductOrder .bottom1 .bottom1Right h1 {
+  border: none;
+  font-size: 1.4rem;
+}
+.itemProductOrder .bottom1 .bottom1Right p {
+  font-size: 1.2rem;
+}
+
+.itemProductOrder .bottom2 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemProductOrder .bottom2 p {
+  font-size: 2rem;
+}
+.itemProductOrder .bottom3 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemProductOrder .bottom3 p {
+  font-size: 2rem;
+}
+
+.large-input-container {
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.thanhtoanrightLast {
+  width: 100%;
+  height: 20vh;
+  margin-top: 10px;
+  background-color: #ffffff;
+  display: flex;
+}
+.thanhtoanrightLast-1 {
+  flex: 2;
+  height: 100%;
+  display: flex;
+}
+.cost1 {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cost1 h3 {
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+}
+.cost2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cost2 h2 {
+  margin: 10px 0;
+  color: #ee4d2d;
+}
+.thanhtoanrightLast-2 {
+  flex: 1;
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.btnPayment {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #ee4d2d;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+.btnPayment:hover {
+  background-color: #f79784;
+  transition: 0.6s;
+}

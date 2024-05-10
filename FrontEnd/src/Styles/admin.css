@@ -1,0 +1,170 @@
+.main {
+  margin: 0;
+  background-color: #f3f3f3;
+}
+.container {
+  display: flex;
+  justify-content: end;
+  min-height: 100vh;
+}
+
+.left-menu {
+  height: 100vh;
+  width: 25rem;
+  left: 0;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.group-control {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.left-menu .group-control .btn-main {
+  height: 10vh;
+  z-index: 1000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  border: 1px solid #dbdbdb;
+}
+.left-menu .group-control .btn-main:hover {
+  background-color: #ecbf94;
+  transition: 0.5s;
+}
+.left-menu .group-control .btn-main.active-link {
+  background-color: #ecbf94;
+}
+
+.left-menu .group-control .icon-main {
+  font-size: 2rem;
+  margin: 20px;
+}
+.left-menu .group-control span {
+  margin: 10px;
+}
+
+.btn-extra {
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.btn-extra.active {
+  color: #ecbf94;
+  text-decoration: underline;
+}
+.icon-delete {
+  cursor: pointer;
+}
+.right-main {
+  width: 85%;
+  margin: 5rem 0 5rem 0;
+  background-color: #ffffff;
+}
+.right-main .heading-right {
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 5px solid #cac8c8;
+  position: relative;
+}
+.right-main .heading-right .right-title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.right-main .table-right {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-main .table-right .table-product {
+  width: 80%;
+  height: 100%;
+}
+
+.pagination {
+  margin: 10px;
+}
+.pagination p {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  text-align: center;
+}
+.pagination .btn-page-admin {
+  width: 6rem;
+  margin: 10px;
+}
+.btn-page-admin {
+  display: flex;
+  height: 3em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+}
+.btn-page-admin:hover {
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  transform: translateY(-2px);
+}
+/* ------------------------ */
+.right-main .table-right table {
+  border: 1px solid #d9d9d9;
+}
+
+.right-main .table-right .heading-table {
+  text-align: center;
+  background-color: #d9d9d9;
+}
+.body-table {
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: #ffffff;
+}
+.notification {
+  position: fixed;
+  top: 8em;
+  right: 0;
+  transform: translateX(-50%);
+  padding: 16px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.4rem;
+}
+.notificationError {
+  position: fixed;
+  top: 8em;
+  right: 0;
+  transform: translateX(-50%);
+  padding: 16px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*---------------------------------------------------------- */

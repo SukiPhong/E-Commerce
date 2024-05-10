@@ -1,0 +1,86 @@
+/* --------------------------------- */
+.control-infor {
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  height: 100vh;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.control-infor .avatar-user {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.control-infor .avatar-user img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0;
+  border: 3px solid #000000;
+}
+
+.control-infor .btn-control-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-infor .btn-change-img,
+.control-infor .btn-logout {
+  margin: 5px;
+  padding: 5px 20px;
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.control-infor .btn-change-img:hover,
+.control-infor .btn-logout:hover {
+  background-color: #f3cea1;
+  transform: scale(0.9);
+}
+
+.btn-control-content .btnControl {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.btn-control-content p {
+  margin: 0 0 0 15px;
+}
+
+.btn-control-content .btnControl:hover {
+  background-color: #f3cea1;
+}
+
+.btnControl.active {
+  background-color: #f3cea1;
+}
+
+/* avartar-modal */
+
+.avatar-modal img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+}

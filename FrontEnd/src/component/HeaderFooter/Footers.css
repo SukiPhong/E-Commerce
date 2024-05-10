@@ -1,0 +1,96 @@
+.footer {
+  background-color: #e9e8e8;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-top{
+  display: flex;
+}
+
+.logoFooter {
+  height: auto;
+  flex: 1;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.logoFooter img {
+  width: 15rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer-container {
+  flex: 4;
+  width: 80%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  margin: 0 20px;
+  color: black;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer-right a:hover {
+  color: #edb26c;
+}
+.footer h2 {
+  font-size: 2.2rem;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.Support a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom {
+  height: 5rem;
+  width: 100%;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.footer-bottom-stroke {
+  background-color: #222;
+  height: 1px;
+  width: 100%;
+}

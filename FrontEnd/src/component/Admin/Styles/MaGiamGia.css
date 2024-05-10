@@ -1,0 +1,57 @@
+.btnpagevoucher {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.btnpagevoucher:hover {
+  transform: scale(1.09);
+}
+.current-page {
+  background-color: #edb26c;
+  color: white;
+}
+.addVoucherMain {
+  margin: 10px;
+}
+.add-voucher {
+  width: 50%;
+  margin: 20px;
+}
+.add-voucher .headAdd {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.add-voucher .select-container {
+  width: 50%;
+  position: relative;
+}
+.input-voucher {
+  width: 80%;
+  padding: 10px;
+}
+.icon-percent {
+  position: absolute;
+  background-color: #d9d9d9;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  top: 0;
+  right: 20%;
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-percent p {
+  font-style: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+}
+.btn-add-voucher{
+    background-color: #edb26c;
+    padding: 10px;
+    width: 100px;
+}

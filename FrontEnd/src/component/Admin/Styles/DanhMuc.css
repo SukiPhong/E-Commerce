@@ -1,0 +1,45 @@
+.body-table {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.themdanhmucfield {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+
+.insert-danhmuc-danhmuc {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.insert-danhmuc-danhmuc p {
+  width: 20%;
+  margin: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.insert-danhmuc-danhmuc .input-danhmuc-danhmuc {
+  width: 70%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.insert-danhmuc-danhmuc .btn-themdanhmuc {
+  margin: 10px;
+}
+
+.edit-danhmuc {
+  position: absolute;
+  top: 10px;
+  left: 10rem;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+.my-swal {
+  z-index: 10000;
+}

@@ -1,0 +1,123 @@
+.formEditSanPham {
+  margin: 10px;
+  padding: 10px;
+  max-width: 100%;
+  height: 180vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.backtopage {
+  color: black;
+  font-size: 1.2rem;
+}
+.backtopage:hover {
+  color: rgb(97, 38, 249);
+}
+.formEditSanPham .main-content {
+  width: 100rem;
+}
+.formEditSanPham .main-content .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.formEditSanPham .main-content .header h1 {
+  font-weight: bold;
+}
+.formEditSanPham .main-content .contentEdit {
+  display: flex;
+}
+.left-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.pInsert {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.pInsert p {
+  margin: 0;
+}
+
+.left-content .imgEdit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-content .imgEdit .imgEditField {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.left-content .imgEdit img {
+  width: 100%;
+  height: 220px;
+  box-sizing: border-box;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.imgEditField:hover img {
+  transform: scale(1.1);
+}
+.imgEditField .editOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+}
+.imgEditField .editOverlay input[type="file"] {
+  display: none;
+}
+.imgEditField .editOverlay label {
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #edb26c;
+  border-radius: 5px;
+}
+.imgEditField:hover img {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.imgEditField:hover .editOverlay {
+  opacity: 1;
+}
+/* ------------------------------------------------------------ */
+.right-content {
+  flex: 1;
+}
+.right-content .fieldInput .input-danhmuc {
+  margin: 10px;
+  padding: 10px;
+  width: 30rem;
+  font-size: 1.5rem;
+}
+
+.btnEditField {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnEditField .btnEdit {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #edb26c;
+}

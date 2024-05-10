@@ -1,0 +1,309 @@
+.wrapper {
+  position: relative !important;
+  max-width: 80rem;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  background-image: url("../../../assets/imageLogin.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.wrapper .form-box.login {
+  position: absolute;
+  left: 0;
+  transition: 0.8s;
+  transform: translateX(0);
+}
+.wrapper .form-box.signup {
+  position: absolute;
+  right: 0;
+  transition: 0.8s;
+  transform: translateX(100%);
+}
+.wrapper .form-box.forgotpass {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  transition: 0.8s;
+  transform: scale(0);
+}
+.wrapper.active .form-box.login {
+  transition: 0.8s;
+  transform: translateX(-100%);
+}
+.wrapper.active .form-box.signup {
+  transition: 0.8s;
+  transform: translateX(0);
+}
+.wrapper.active-forgotpass .form-box.login {
+  transition: 0.8s;
+  transform: translateX(-100%);
+}
+.wrapper.active-forgotpass .form-box.forgotpass {
+  transition: 0.8s;
+  transform: scale(1);
+}
+
+.form-box {
+  border-radius: 20px;
+  padding: 7rem;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-box.login,
+.form-box.signup,
+.form-box.forgotpass {
+  display: block;
+}
+
+.form-box.forgotpass h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #f2d335;
+}
+.form-box h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #f2d335;
+}
+
+.form-box .input-box {
+  position: relative;
+  width: 90%;
+  height: 30px;
+  margin: 3rem;
+}
+
+.form-box .input-box label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: bold;
+  pointer-events: none;
+  transition: 0.2s;
+}
+
+.form-box .input-box input:focus ~ label,
+.form-box .input-box input:valid ~ label {
+  top: -10px;
+}
+
+.form-box .input-box input {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  border: 1px solid #000000;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.form-box .input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  line-height: 57px;
+  font-size: 1.8rem;
+}
+
+.form-box .remember-forgot {
+  font-size: 0.9em;
+  color: #fff;
+  margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  color: black;
+}
+
+.form-box .remember-forgot .forgot-pass {
+  color: #142251;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+}
+
+.form-box .remember-forgot .forgot-pass:hover {
+  text-decoration: underline;
+}
+
+.form-box .Btn {
+  width: 50%;
+  height: 3.5rem;
+  border: unset;
+  border-radius: 15px;
+  z-index: 1;
+  background: #f2d335;
+  position: relative;
+  left: 25%;
+  font-weight: bold;
+  font-size: 1.8rem;
+  transition: all 250ms;
+  z-index: 100;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.form-box .Btn:hover {
+  border: 3px solid black;
+}
+
+.form-box .login-register {
+  margin: 25px 0 10px;
+  text-align: center;
+  color: black;
+}
+
+.form-box .login-register button {
+  color: #142251;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.form-box .login-register button:hover {
+  text-decoration: underline;
+}
+
+.form-box .signInwith {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-box .signInwithGoogle,
+.form-box .signInwithGitHub {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-box .signInwithGoogle:hover,
+.form-box .signInwithGitHub:hover {
+  background-color: #d2cfcf;
+}
+
+.form-box .icon-SignIn {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+
+.form-box .signInwith p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.form-box.forgotpass h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #f2d335;
+}
+
+.form-box.forgotpass {
+  width: 500px;
+}
+.form-box.forgotpass .input-box-forgotpass {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  margin-top: 3rem;
+}
+
+.btnOTP {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.btnOTP .Btn-otp {
+  width: 50%;
+  height: 4rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  background: #f2d335;
+  font-weight: bold;
+}
+.form-box.forgotpass .input-box-forgotpass label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: bold;
+  pointer-events: none;
+  transition: 0.2s;
+}
+
+.form-box.forgotpass .input-box-forgotpass input:focus ~ label,
+.form-box.forgotpass .input-box-forgotpass input:valid ~ label {
+  top: -10px;
+}
+
+.form-box.forgotpass .input-box-forgotpass input {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.form-box.forgotpass .login-forgotpass {
+  margin: 25px 0 10px;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgotpass-link {
+  font-size: 1.4rem;
+  color: #142251;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.forgotpass-link:hover {
+  text-decoration: underline;
+}
+/* THÔNG BÁO KHI ĐĂNG KÝ----------------------------------------- */
+.user-data {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+}
+
+.success-message {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}

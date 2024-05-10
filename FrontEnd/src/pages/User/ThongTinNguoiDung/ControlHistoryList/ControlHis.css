@@ -1,0 +1,123 @@
+.btn-historyList {
+  height: 100%;
+}
+.menu-his {
+  height: 5vh;
+}
+.searchHistory {
+  margin: 10px 0;
+  display: flex;
+  background-color: #ececec;
+}
+.searchHistory .search-input {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.content-his {
+  height: 100%;
+}
+.item-list {
+  height: 100%;
+}
+.item-order {
+  height: 45vh;
+  margin-bottom: 15px;
+  border-bottom: 5px solid #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+.item-order .orderleft {
+  height: 150px;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.item-order .orderleft:hover {
+  overflow-x: auto;
+}
+.item-order .orderleft::-webkit-scrollbar {
+  width: 1px;
+}
+
+.item-order .orderleft::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.item-order .orderleft::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+.item-order .orderleft::-webkit-scrollbar {
+  height: 5px;
+}
+
+.item-order .orderleft::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.item-order .orderleft::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+.product-order {
+  width: 280px;
+  height: 130px;
+  margin-right: 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 5px solid #f0f0f0;
+}
+.product-order .infoProductOrder {
+  flex: 1;
+}
+
+.product-order .infoProductOrder p {
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.product-order img {
+  height: 129px;
+  margin-right: 5px;
+  flex: 1;
+}
+.item-order .orderRight {
+  flex: 1;
+  display: flex;
+}
+
+.Statusorder {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 20px;
+  align-content: flex-end;
+}
+.Statusorder .addressOrder {
+  font-size: 1.8rem;
+}
+.Statusorder p {
+  font-size: 1.5rem;
+}
+
+.StatusButton {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+}
+.StatusButton p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #7f7ffa;
+  text-decoration: underline;
+}

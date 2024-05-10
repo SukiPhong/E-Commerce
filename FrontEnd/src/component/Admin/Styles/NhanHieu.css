@@ -1,0 +1,104 @@
+.danh-muc-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.danh-muc-table {
+  width: 60rem;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.checkbox-cell {
+  width: 50px;
+}
+
+.stt-cell {
+  width: 50px;
+}
+
+.id-cell {
+  width: 50px;
+}
+
+.ten-danh-muc-cell {
+  flex: 2;
+  width: 200px;
+}
+
+.empty-cell {
+  width: 200px;
+}
+.insert-danhmuc {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.insertNhanHieu {
+  width: 30%;
+  margin: 0 50px 30px 50px;
+}
+
+.iconHoaThi {
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.insertNhanHieu .input-danhmuc {
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-themdanhmuc {
+  width: 100px;
+  height: 50px;
+  background-color: #edb26c;
+}
+
+.btn-themdanhmuc:hover {
+  transform: scale(1.2);
+}
+
+.icon {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.combobox-danhmuc {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.checkbox-danhmuc {
+  width: 100%;
+}
+.checkbox-danhmuc .checkboxDanhMuc {
+  display: flex;
+  width: 100;
+}
+.danhmucList {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.checkboxDanhMuc label {
+  font-size: 1.4rem;
+}
